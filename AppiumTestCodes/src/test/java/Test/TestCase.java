@@ -11,8 +11,8 @@ public class TestCase extends AmazonApp {
 	@Test(priority =0)
 	public void loginToApp() {
 		Pages login = new Pages(driver);
-		String email = "appiumcodetest@gmail.com";
-		String passCode ="Abcd@1234";
+		String email = "";
+		String passCode ="";
 		login.loginPage(email, passCode);
 		System.out.println("Logged In Successfully");
 	}
